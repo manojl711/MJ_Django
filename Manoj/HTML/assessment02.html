@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MJ - Assessment Test HTML Level 2</title>
+</head>
+<body>
+<form action="thankyou.html">
+    <h1>Course Sign Up Page</h1>
+    <p>Please note: FN, LN, pwd and email are required </p>
+    <label for="fn">First Name:</label>
+    <input id="fn" type="text" name="firstname" placeholder="FN" required>
+    <label for="ln">Last Name:</label>
+    <input id="ln" type="text" name="lastname" placeholder="LN" required>
+    <p></p>
+    <label for="usermail">Email:</label>
+    <input id="usermail" type="email" name="email" placeholder="name@email.com" required>
+    <label for="userpwd">Password:</label>
+    <input id="userpwd" type="password" name="password" required>
+
+    <p>Are you over age 18?</p>
+    <label for="yes">Yes: </label>
+    <input id="yes" type="radio" name="age">
+    <label for="no">No: </label>
+    <input id="no" type="radio" name="age">
+
+    <p>Do you have a Credit Card or PayPal?</p>
+    <select name="payment" id="paymethod">
+        <option value="card">Credit Card</option>
+        <option value="paypal">Paypal</option>
+    </select>
+    <p></p>
+    <input type="submit" value="SUBMIT">
+</form>
+</body>
+</html>
